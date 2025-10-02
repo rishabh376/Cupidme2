@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matches - Azure Cupid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Azure Cupid 💕</a>
+            <ul class="nav-menu">
+                <li><a href="discover.html" class="nav-link">Discover</a></li>
+                <li><a href="matches.html" class="nav-link active">Matches</a></li>
+                <li><a href="profile.html" class="nav-link">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Matches Section -->
+    <section class="matches">
+        <div class="container">
+            <h2>Your Matches 💝</h2>
+            <div id="matchesList" class="matches-list">
+                <!-- Matches will be dynamically loaded here -->
+            </div>
+            <div id="noMatches" class="no-matches" style="display: none;">
+                <h3>No matches yet!</h3>
+                <p>Keep swiping to find your perfect match</p>
+                <a href="discover.html" class="btn-primary">Discover Profiles</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize matches page
+        document.addEventListener('DOMContentLoaded', function() {
+            loadMatches();
+        });
+    </script>
+</body>
+</html>

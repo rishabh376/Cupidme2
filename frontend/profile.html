@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile - Azure Cupid</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Azure Cupid 💕</a>
+            <ul class="nav-menu">
+                <li><a href="discover.html" class="nav-link">Discover</a></li>
+                <li><a href="matches.html" class="nav-link">Matches</a></li>
+                <li><a href="profile.html" class="nav-link active">Profile</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Profile Section -->
+    <section class="profile">
+        <div class="container">
+            <h2>Edit Your Profile</h2>
+            <form id="profileForm" class="profile-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="age">Age</label>
+                    <input type="number" id="age" name="age" min="18" max="100" required>
+                </div>
+                <div class="form-group">
+                    <label for="bio">Bio</label>
+                    <textarea id="bio" name="bio" rows="4" maxlength="500" required></textarea>
+                </div>
+                <div class="form-group">
+                    <label for="photo">Profile Photo</label>
+                    <input type="file" id="photo" name="photo" accept="image/*">
+                    <div id="photoPreview" class="photo-preview"></div>
+                </div>
+                <button type="submit" class="btn-primary">Save Profile</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        // Initialize profile page
+        document.addEventListener('DOMContentLoaded', function() {
+            loadProfile();
+            document.getElementById('profileForm').addEventListener('submit', saveProfile);
+            document.getElementById('photo').addEventListener('change', previewPhoto);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "profiles": [
+    {
+      "id": "profile-001",
+      "name": "Alex Johnson",
+      "age": 28,
+      "bio": "Software developer who loves hiking and coffee. Looking for someone to explore the city with! I enjoy weekend adventures, trying new restaurants, and cozy movie nights.",
+      "pictureUrl": "https://picsum.photos/seed/alex/400/600"
+    },
+    {
+      "id": "profile-002",
+      "name": "Sam Williams",
+      "age": 32,
+      "bio": "Passionate about cooking and travel. Let's share recipes and adventure stories! I've been to 30 countries and counting. Looking for a travel partner and foodie companion.",
+      "pictureUrl": "https://picsum.photos/seed/sam/400/600"
+    },
+    {
+      "id": "profile-003",
+      "name": "Jordan Davis",
+      "age": 26,
+      "bio": "Yoga instructor and nature enthusiast. Seeking genuine connections and good vibes. Early morning meditation, sunset hikes, and deep conversations are my thing.",
+      "pictureUrl": "https://picsum.photos/seed/jordan/400/600"
+    },
+    {
+      "id": "profile-004",
+      "name": "Taylor Brown",
+      "age": 29,
+      "bio": "Music lover, bookworm, and amateur photographer. Let's create some memories! I play guitar, love indie concerts, and always have a book recommendation ready.",
+      "pictureUrl": "https://picsum.photos/seed/taylor/400/600"
+    },
+    {
+      "id": "profile-005",
+      "name": "Morgan Lee",
+      "age": 31,
+      "bio": "Entrepreneur with a passion for sustainability. Looking for someone who shares my values. I run a eco-friendly startup and believe in making the world a better place.",
+      "pictureUrl": "https://picsum.photos/seed/morgan/400/600"
+    },
+    {
+      "id": "profile-006",
+      "name": "Casey Martinez",
+      "age": 27,
+      "bio": "Fitness enthusiast and dog parent. My golden retriever Max and I are looking for our adventure buddy. Marathon runner, smoothie maker, beach lover.",
+      "pictureUrl": "https://picsum.photos/seed/casey/400/600"
+    },
+    {
+      "id": "profile-007",
+      "name": "Riley Anderson",
+      "age": 30,
+      "bio": "Art curator with a love for modern art and vintage wine. Gallery openings and wine tastings are my ideal dates. Let's discuss Monet over Merlot.",
+      "pictureUrl": "https://picsum.photos/seed/riley/400/600"
+    },
+    {
+      "id": "profile-008",
+      "name": "Avery Thompson",
+      "age": 25,
+      "bio": "Grad student in psychology. Fascinated by human behavior and connection. Coffee addict, podcast junkie, and aspiring therapist. Let's have meaningful conversations.",
+      "pictureUrl": "https://picsum.photos/seed/avery/400/600"
+    },
+    {
+      "id": "profile-009",
+      "name": "Quinn Wilson",
+      "age": 33,
+      "bio": "Chef and food blogger. I'll cook you the best meal you've ever had. Farm-to-table enthusiast, spice lover, and always experimenting with new recipes.",
+      "pictureUrl": "https://picsum.photos/seed/quinn/400/600"
+    },
+    {
+      "id": "profile-010",
+      "name": "Drew Parker",
+      "age": 28,
+      "bio": "Environmental scientist with a passion for the outdoors. Rock climbing, camping, and protecting our planet. Looking for someone who loves adventure and sustainability.",
+      "pictureUrl": "https://picsum.photos/seed/drew/400/600"
+    }
+  ]
+}
